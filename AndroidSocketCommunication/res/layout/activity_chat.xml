@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/input_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true" >
+        
+        <EditText
+            android:id="@+id/input_msg_edittext"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:layout_gravity="center_vertical"
+            android:inputType="text" />
+        
+        <Button
+            android:id="@+id/send_msg_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="@string/action_send_msg" />
+        
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/msg_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/input_linearlayout"
+        android:transcriptMode="alwaysScroll"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/listview_divider_height"
+        android:listSelector="@android:color/transparent" />
+
+</RelativeLayout>

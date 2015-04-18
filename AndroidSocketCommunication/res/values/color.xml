@@ -1,0 +1,8 @@
+<resources>
+    
+    <color name="server_chat_item_bg_color">#fff0ad4e</color>
+    <color name="server_chat_item_bg_color_pressed">#ffed9c28</color>
+    <color name="client_chat_item_bg_color">#ff5bc0de</color>
+    <color name="client_chat_item_bg_color_pressed">#ff39b3d7</color>
+    
+</resources>

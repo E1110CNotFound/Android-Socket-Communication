@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Socket Communication</string>
+    
+    <string name="menu_set_up_port">set up port</string>
+    
+    <string name="action_send_msg">send</string>
+    <string name="action_save_port">save</string>
+    
+    <string name="hint_input_server_ip">Enter server IP</string>
+    <string name="hint_input_send_port">Enter send port</string>
+    <string name="hint_input_receive_port">Enter receive port</string>
+    
+    <string name="error_wrong_port">Enter a correct port!</string>
+	<string name="error_wifi_not_available">Wifi is not available! Please check your settings.</string>
+	
+	<string name="identify_server">server</string>
+	<string name="identify_client">client</string>
+    
+</resources>

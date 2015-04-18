@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+    <ImageView
+        android:id="@+id/server_chat_item_head"
+        android:layout_width="@dimen/chat_item_head_size"
+        android:layout_height="@dimen/chat_item_head_size"
+        android:layout_margin="@dimen/chat_item_head_margin"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_server"
+        android:contentDescription="@string/identify_server" />
+    
+    <TextView
+        android:id="@+id/server_chat_item_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/chat_item_width"
+        android:minHeight="@dimen/chat_item_head_size"
+		android:layout_marginTop="@dimen/chat_item_margin"
+		android:layout_marginBottom="@dimen/chat_item_margin"
+		android:layout_toStartOf="@id/server_chat_item_head"
+		android:layout_toLeftOf="@id/server_chat_item_head"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_chat_item_server"
+        android:textSize="@dimen/chat_item_text_size"
+        android:textColor="@android:color/white" />
+    
+</RelativeLayout>

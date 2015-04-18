@@ -1,1 +1,1 @@
-# Android-Socket-Communication
+# 哈工大软件学院 移动终端开发技术 网络编程实验

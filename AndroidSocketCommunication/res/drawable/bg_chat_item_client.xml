@@ -1,0 +1,25 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    <item android:state_pressed="true">
+		<shape android:shape="rectangle">
+		    <corners android:radius="@dimen/chat_item_corner_radius"/>
+		    <solid android:color="@color/client_chat_item_bg_color_pressed"/>
+		    <padding android:left="@dimen/chat_item_padding"
+		        android:top="@dimen/chat_item_padding"
+		        android:right="@dimen/chat_item_padding"
+		        android:bottom="@dimen/chat_item_padding"/>
+		</shape>        
+    </item>
+    
+    <item>
+		<shape android:shape="rectangle">
+		    <corners android:radius="@dimen/chat_item_corner_radius"/>
+		    <solid android:color="@color/client_chat_item_bg_color"/>
+		    <padding android:left="@dimen/chat_item_padding"
+		        android:top="@dimen/chat_item_padding"
+		        android:right="@dimen/chat_item_padding"
+		        android:bottom="@dimen/chat_item_padding"/>
+		</shape>        
+    </item>
+    
+</selector>

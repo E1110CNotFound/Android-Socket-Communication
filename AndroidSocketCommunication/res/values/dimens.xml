@@ -1,0 +1,13 @@
+<resources>
+
+    <dimen name="listview_margin">5dp</dimen>
+    <dimen name="listview_divider_height">0dp</dimen>
+    <dimen name="chat_item_width">240dp</dimen>
+    <dimen name="chat_item_text_size">10pt</dimen>
+    <dimen name="chat_item_corner_radius">5dp</dimen>
+    <dimen name="chat_item_padding">10dp</dimen>
+    <dimen name="chat_item_margin">10dp</dimen>
+    <dimen name="chat_item_head_size">36dp</dimen>
+    <dimen name="chat_item_head_margin">5dp</dimen>
+
+</resources>

@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+    <EditText
+        android:id="@+id/input_server_ip_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/listview_margin"
+        android:inputType="text"
+        android:hint="@string/hint_input_server_ip" />
+    
+    <EditText
+        android:id="@+id/input_send_port_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/listview_margin"
+        android:inputType="number"
+        android:hint="@string/hint_input_send_port" />
+    
+    <EditText
+        android:id="@+id/input_receive_port_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/listview_margin"
+        android:inputType="number"
+        android:hint="@string/hint_input_receive_port" />
+    
+    <Button
+        android:id="@+id/save_port_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/listview_margin"
+        android:text="@string/action_save_port" />
+    
+</LinearLayout>

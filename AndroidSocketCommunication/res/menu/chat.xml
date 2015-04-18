@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.guoyonghui.server.ChatActivity" >
+
+    <item
+        android:id="@+id/menu_set_up_port"
+        android:orderInCategory="0"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_set_up_port"/>
+
+</menu>
